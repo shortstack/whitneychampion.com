@@ -1,10 +1,9 @@
-dependencies:
-    override:
-        - sudo pip install awscli
-
+machine:
+  node:
+    version: 6.0.0
 deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync /home/ubuntu/whitneychampion.com s3://whitneychampion.com --region us-east-1 --delete
+      - aws s3 sync dist/whitneychampion.com s3://whitneychampion.com --region us-east-1 --delete
 
