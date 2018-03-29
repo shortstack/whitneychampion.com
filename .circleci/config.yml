@@ -3,8 +3,9 @@ jobs:
   deploy:
     docker:
       - image: circleci/python:2.7
-    working_directory: ~/
+    working_directory: ~/whitneychampion.com
     steps:
+      - checkout
       - run:
           name: install awscli
           command: sudo pip install awscli
