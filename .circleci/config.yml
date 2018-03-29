@@ -11,7 +11,7 @@ jobs:
           command: sudo pip install awscli
       - run:
           name: remove .git and .circleci
-          command: rm -rf whitneychampion.com/.git && rm -rf whitneychampion.com/.gitignore && rm -rf whitneychampion.com/.circleci
+          command: rm -rf .git && rm -rf .gitignore && rm -rf .circleci
       - run:
           name: deploy to S3
           branch: master
