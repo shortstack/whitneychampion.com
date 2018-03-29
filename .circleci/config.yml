@@ -10,9 +10,12 @@ jobs:
           name: install awscli
           command: sudo pip install awscli
       - run:
-          name: test
+          name: deploy to S3
           branch: master
-          command: ls -la
+          command: aws s3 sync . s3://whitneychampion.com/ --region us-east-1
+      - run:
+          name: invalidate cloudfront
+          command: aws cloudfront create-invalidation --distribution-id E8CHANVCT72GZ --paths /index.html /style.css /Resume.pdf
 
 workflows:
   version: 2
