@@ -10,6 +10,9 @@ jobs:
           name: install awscli
           command: sudo pip install awscli
       - run:
+          name: remove .git and .circleci
+          command: rm -rf whitneychampion.com/.git && rm -rf whitneychampion.com/.gitignore && rm -rf whitneychampion.com/.circleci
+      - run:
           name: deploy to S3
           branch: master
           command: aws s3 sync . s3://whitneychampion.com/ --region us-east-1
