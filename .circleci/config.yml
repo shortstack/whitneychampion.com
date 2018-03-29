@@ -6,6 +6,9 @@ jobs:
     working_directory: ~/
     steps:
       - run:
+          name: Avoid hosts unknown for github
+          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+      - run:
           name: clone
           command: git clone git@github.com:shortstack/whitneychampion.com.git ~/whitneychampion.com
   deploy:
@@ -13,6 +16,9 @@ jobs:
       - image: circleci/python:2.7
     working_directory: ~/
     steps:
+      - run:
+          name: Avoid hosts unknown for github
+          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: git clone 
           command: git clone git@github.com:shortstack/whitneychampion.com.git ~/whitneychampion.com
