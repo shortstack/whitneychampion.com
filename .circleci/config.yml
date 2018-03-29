@@ -5,6 +5,12 @@ jobs:
       - image: debian:stretch
     steps:
       - checkout
-      - run:
-          name: Greeting
-          command: echo Hello, world.
+
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - checkout
+      - run: 
+	  command: |
+	    - aws s3 sync whitneychampion.com s3://whitneychampion.com/ --delete
