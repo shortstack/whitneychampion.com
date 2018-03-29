@@ -1,52 +1,24 @@
 version: 2
 jobs:
-  build:
-    docker:
-      - image: circleci/python:2.7
-    working_directory: ~/
-    steps:
-      - run:
-          name: test
-          command: ls -la /tmp
-      - run:
-          name: Avoid hosts unknown for github
-          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-      - run:
-          name: clone
-          command: git clone git@github.com:shortstack/whitneychampion.com.git ~/whitneychampion.com
   deploy:
     docker:
       - image: circleci/python:2.7
     working_directory: ~/
     steps:
-      - run:
-          name: Avoid hosts unknown for github
-          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-      - run:
-          name: git clone
-          command: git clone git@github.com:shortstack/whitneychampion.com.git ~/whitneychampion.com
-      - run:
-          name: remove .git and .circleci
-          command: rm -rf whitneychampion.com/.git && rm -rf whitneychampion.com/.gitignore && rm -rf whitneychampion.com/.circleci
+      - checkout
       - run:
           name: install awscli
           command: sudo pip install awscli
       - run:
-          name: deploy to S3
+          name: test
           branch: master
-          command: aws s3 sync whitneychampion.com/ s3://whitneychampion.com/ --region us-east-1
-      - run:
-          name: invalidate cloudfront
-          command: aws cloudfront create-invalidation --distribution-id E8CHANVCT72GZ --paths /index.html /style.css /Resume.pdf
+          command: ls -la
 
 workflows:
   version: 2
   build-deploy:
     jobs:
-      - build
       - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master
