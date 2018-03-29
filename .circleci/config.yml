@@ -14,17 +14,7 @@ jobs:
           command: rm -rf .git && rm -rf .gitignore && rm -rf .circleci
       - run:
           name: deploy to S3
-          branch: master
           command: aws s3 sync . s3://whitneychampion.com/ --region us-east-1
       - run:
           name: invalidate cloudfront
           command: aws cloudfront create-invalidation --distribution-id E8CHANVCT72GZ --paths /index.html /style.css /Resume.pdf
-
-workflows:
-  version: 2
-  build-deploy:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only: master
