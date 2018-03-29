@@ -1,16 +1,10 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: debian:stretch
-    steps:
-      - checkout
+dependencies:
+    override:
+        - sudo pip install awscli
 
-  deploy:
-    machine:
-      enabled: true
-    steps:
-      - checkout
-      - run: 
-	  command: |
-	    - aws s3 sync whitneychampion.com s3://whitneychampion.com/ --delete
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync /home/ubuntu/whitneychampion.com s3://whitneychampion.com --region us-east-1 --delete
+
