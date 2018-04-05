@@ -4,67 +4,73 @@ https://keybase.io/shortstack
 
 I hereby claim:
 
-  * I am an admin of http://whitneychampion.com
+  * I am an admin of https://whitneychampion.com
   * I am shortstack (https://keybase.io/shortstack) on keybase.
   * I have a public key with fingerprint D02E 8221 6BFD BD73 4F72  CD78 2B4D 49BF 46E0 59DB
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0101534542f8032e419c7cae9b4b606682091a23678c47d12e3686ee5ee4f10b426c0a",
-            "fingerprint": "d02e82216bfdbd734f72cd782b4d49bf46e059db",
-            "host": "keybase.io",
-            "key_id": "2b4d49bf46e059db",
-            "kid": "0101534542f8032e419c7cae9b4b606682091a23678c47d12e3686ee5ee4f10b426c0a",
-            "uid": "0c03771ca54ff0406474b3c9f3b1ac19",
-            "username": "shortstack"
-        },
-        "revoke": {
-            "sig_ids": [
-                "8abf47fd3d6995300a44ebe8d52366c5ea81430fe0d64663ef63e23671bf3a880f"
-            ]
-        },
-        "service": {
-            "hostname": "whitneychampion.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101534542f8032e419c7cae9b4b606682091a23678c47d12e3686ee5ee4f10b426c0a",
+      "fingerprint": "d02e82216bfdbd734f72cd782b4d49bf46e059db",
+      "host": "keybase.io",
+      "key_id": "2b4d49bf46e059db",
+      "kid": "0101534542f8032e419c7cae9b4b606682091a23678c47d12e3686ee5ee4f10b426c0a",
+      "uid": "0c03771ca54ff0406474b3c9f3b1ac19",
+      "username": "shortstack"
     },
-    "ctime": 1443027518,
-    "expire_in": 157680000,
-    "prev": "2e80a46988c6308ce60bc34d0b2ce4f4e60c7c9dbd4d4d5e31dd4aae8ae2b09a",
-    "seqno": 5,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1522937720,
+      "hash_meta": "865e0c63f4b44b0225da640dc7e7dda345fe0c599a618f6ec2b7dbe8b02bdcb8",
+      "seqno": 2340869
+    },
+    "revoke": {
+      "sig_ids": [
+        "61ea9d16c76bb3c5a842c2c3c5c44b309ea3bc1d76d293f66d856c9a13fb43f00f"
+      ]
+    },
+    "service": {
+      "hostname": "whitneychampion.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522937736,
+  "expire_in": 157680000,
+  "prev": "6c4aea303a7cfcc4851592f6870249cc5f3e59e4a83eba382b1bb6dd337cf4b4",
+  "seqno": 62,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.46
+Version: Keybase OpenPGP v2.0.76
 Comment: https://keybase.io/crypto
 
-yMJ0AnicrZJtiBVVGMfv+pLtRU3xS7Ru2LRCyrqdM+fMmTNXcY3yU1BBpMF1vZ2X
-Z+6dvXdnbjOzN5d1g0VEvySrHzYjDKkFhYRdVLAIZVdlbdnIiiLIzDeoSMw1EBaN
-7Mxm3/rYwGE4h//zf37n+Z/zS+bn8k1/FrePDE3tSJumJ+735rbM+2FjvyUj3WcV
-+q0qzP2gpiFJS9VAWwULYYQdQh1q+xwRGyj2lKsEeJJKhhjjNvKwsAlzuaKuxjYQ
-xhmAA0B9jCS1mULCarf8ICxDXI+DMDW2GtnAbRsz6WupXUJ911ba5bakmnrSpwyQ
-42lpCitRklUYOCkS6Agic2Y2pTm8/9D/z9y9/9gpRFwXK+FQ30cUMepSSZTnE4mF
-wl4mTCAORQ8YdVKJ4jRJhapaA+1WDI2oCtlkk6BssBOrULS4MNCur4lmnucQhASl
-IIFrxzAx5YDgmBLkA9KMMkbANyvDxdIngnPkW13G2/RsBGrOPJvTw/5vVYI0hD5V
-ET31IAo7VNRjAOtxlEYqqhlBJU3rhYwt7avPFYAsPbQqySDUJitT0IA4MeVWARul
-SoPMG1NDZbsO5u0W7KgHMZSCTOG4jCPzZW2gkSUD3NyJeZwrRhBXwJBUhGokbWVG
-TM3eBGIi0yZB7QDBWlMhgAuwJfKy0SfwZhhZBcdginI21qAcirQ3Bmvg7Pi2Bbmm
-fO6RhfOyN5zLNy/792XDvUdzR77xOs7nVx54vXPVzY8Pda+beVVNzPyem14xUq+2
-4eut3w2vudz2ARl/9863f7V83Xbn5RWbPvtt19TTzYsP3Lw27Vy68uw73//xYDLZ
-u7rjpcWHL7QOb57ZWSNbzty7Vjydbr1yevXtE3j/+6ceqx0stlzucn8ZnR17omd4
-34Kp44evvtL46rUN/OB4aeCnNZ97L3zBIaz1e12XfnxmdvmXs+uKVzftK+S7j51E
-j98oDz430nnr0LkTnfmLZx11d/6iu6e6p64P7VpLb2188dzk5gsf3j7WJAd2P+//
-+tSTE8ePTlz8+f7S2T1nJlta5Wjf4OjIqkHvjZVHxo5+svS9j9YP9e//dLQ59/aD
-G38DJUVkUA==
-=FzIF
+yMLAAnicrVNtaBxFGL60ttGgSVPtD78i2aBgDHV2ZnZ29/ALoYlEKFbwqE2bcz7e
+uV0ud3vZ3ZxNj9j+kUZLGxGFIi1qK0IrwUOkFFFIYu1Zo5SqGPpHoeAPiyJVioKa
+OhsrgvjT/bM7s8/zvM/7zLynblid62j7fWT0jRfO7EzbFhd2T+S2nb53umGJSE1a
++YZVhpUXjClI0mI5VFbeQjayHUIdirWHCAZq+9KVHHxBBUOMeRj5NseEuZ6krrIx
+EOYxAAeAahsJiplE3BqwdFgtQVyLw2pqZBXC4GFsM6GVUC6h2sVSuR4WVFFfaMoA
+Ob4ShhhEScYw5gRPYGMYmT2zKK7Y+w/8/+x74i85iYjr2pI7VGtEEaMuFUT6mgib
+S9vPgAnEVV4Bg06CKE6TlMuyNTVgVSAuj0ExjqI0i1emYQayHYx9o4mRaZEnQbEC
+KTdcjzmAJCOaCkoFwthRnFGkpAuuUty0pM1/x/c5sz3NQGLhKgGegQolhWecJDBe
+jaw8JhR5zDcOYqhHZciKJ2HJBJdY+RGL2cB9ZTPpMmFacbhHscTSfElTmCAfOBHS
+Vi5TxqhmTHkOkz63iRaUaIS0tWMqKxbXQ7kinp3U1QSeDsK0CpMy4JVaGFU3yqhi
+jNXiKI1kNGYAQZrWknwWTzpZW2GAKF7VKoqwqsx1MYw6xInhm7gM8l/JETZgwc5a
+GEMxzBCOyzxknqwO1I0kk5SbJhDhrtRSUs+xHR9r5rkIU19KRxNwfKDcIyA4MZfP
+FoIpRYjBm/j/iZJh45OXsqMNS1WeTsRgTS3Mbb8m19aRW7tmVTZHuY7r1v09Xa+0
+2q9sfrCytW/x4XLv0oXhc83m0L7l5Usnt4jPyuvH7p8VP3Xe4fT673R9P/rrUzfv
+eqC9dXFzufDz5ZfWtofx5790r98w80T39Kb5F08Unrv1g0r3l0+Osq7gtrtOdD5+
+adPgI9cO9x0/P3vful3T/RcWT9959odDhcPiwC2vD3Ucnpm/fMr5qDl3MLD98Zbw
+nJebP/Y3fut6LNm993p9Y2PN2c56Y8v5o9+kR84Es49u+GNk4ZMr+KtKYdu+rd9e
+vKnn3bvPsWO3v98bvfXmh6W5tq97Br8YGWy9NvypVSkMQbp3puf55OD4x4eCHS26
+vP+eZ/eswn1L0cnxt/Ovpnrpmeb8Q3v6v1vtvbf9T8vdgUw=
+=oCQf
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -73,4 +79,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/shortstack
 
 ==================================================================
-
