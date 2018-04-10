@@ -157,6 +157,10 @@ header .name {
     color: #a56ff8 !important;
 }
 
+.nav .talks a {
+  color: #3469e0 !important;
+}
+
 .nav .education a {
     color: #e74c3c !important;
 }
@@ -256,6 +260,10 @@ header .name {
 
 .featurette.work {
     background: #a56ff8;
+}
+
+.featurette.talks {
+    background: #3469e0;
 }
 
 .featurette.education {

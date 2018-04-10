@@ -16,7 +16,7 @@ jobs:
       - run:
           name: deploy to S3
           branch: master
-          command: aws s3 sync . s3://whitneychampion.com/ --region us-east-1
+          command: aws s3 sync . s3://whitneychampion.com/ --region us-east-1 --acl public-read
       - run:
           name: invalidate cloudfront
           branch: master
