@@ -19,6 +19,11 @@ body {
 
 }
 
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: "Pathway Gothic One";
     text-transform: uppercase;
@@ -353,6 +358,10 @@ header .name {
     list-style-type: none;
 }
 
+.infra li ul li {
+    list-style-type: disc;
+}
+
 .caption {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -402,6 +411,10 @@ header .name {
 .sub ul {
 	width: 100%;
 	padding: 20px 30px;
+}
+
+.infra ul {
+  padding: 20px 0px;
 }
 
 .android img {
