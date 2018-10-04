@@ -27,6 +27,14 @@
   max-width: 40rem;
 }
 
+.navbar img {
+  max-width: 50px;
+}
+
+a, a:hover, a:active {
+  color: #0ac4da;
+}
+
 .lead {
   color: #ff33cc;
 }
