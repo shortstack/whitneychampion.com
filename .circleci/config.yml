@@ -20,7 +20,7 @@ jobs:
       - run:
           name: deploy to S3
           branch: master
-          command: aws s3 sync art/* s3://angry.unicorns.lol/ --region us-east-1 --acl public-read
+          command: cd art; aws s3 sync . s3://angry.unicorns.lol/ --region us-east-1 --acl public-read
       - run:
           name: invalidate cloudfront
           branch: master
