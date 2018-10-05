@@ -27,8 +27,21 @@
   max-width: 40rem;
 }
 
+.navbar {
+  width: 100%;
+}
+
 .navbar img {
   max-width: 50px;
+}
+
+.nav-item {
+  display: block;
+  float: right;
+}
+
+.nav-item a {
+  padding-left: 15px;
 }
 
 a, a:hover, a:active {
