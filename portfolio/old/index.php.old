@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name="author" content="Whitney Champion" />
+<meta name="keywords" content="whitney, whitney powell, whitney champion, whitney ellis powell, whitney ellis champion, 
+freelance, rhce, rhcsa, red hat, south carolina, charleston, boone, north carolina, student, fedora, red hat, slackware, 
+ubuntu, short stack, short-stack, short-stack.net, short-stack.com, computers, appalachian state university, appstate, ASU, 
+web design, web development, computer information systems, development, games, gaming, gaming club, linux, unix, LUG, ALUG, 
+shortstackdotnet, RHCE, RHCSA, RHCT, CISSP, CEH, certified ethical hacker, security+, linux+, comptia, infosec, SRR, STIG, 
+gold disk, retina, nessus, wireshark, ITIL, ITSM, IT Service Management, XHTML, CSS, PHP, MySQL, SQL, bash, database, access, 
+server administration, vmware, virtualbox, apache, python, c++, java, content management systems, android development, android, 
+android developer" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>WHITNEY.ELLIS.CHAMPION | RESUME&PORTFOLIO</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="shortcut icon" href="img/tiny.ico"/>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23780622-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="js/jquery-latest.js" type="text/javascript"></script>
+<script src="js/smoothscroll.js"></script> 
+
+<!--code for jquery cycle-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/chili-1.7.pack.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#slider').before('<div class="slider-nav">').cycle({
+        fx:     'fade',
+        speed:  'slow',
+        timeout: 8000,
+        pager:  '.slider-nav',
+        before: function() { if (window.console) console.log(this.src); }
+    });
+});
+</script>
+
+<!--end code for jquery cycle-->
+
+
+</head>
+<body>
+
+<div id="container">
+
+
+	<div id="left">
+		<img src="img/me.jpg" class="profile" alt="Hi!"/>
+		<br/>
+
+		<a class="nav" href="#intro">intro</a>
+		<a class="nav" href="#resume">resume</a>
+		<a class="nav" href="#websites">websites</a>
+		<a class="nav" href="#logos">logos</a>
+		<a class="nav" href="#android">android</a>
+		<br/><br/>
+
+		<center><a href="http://facebook.com/WhitneyPowellChampion" target="_blank"><img src="img/facebook.png" alt="Facebook" title="Facebook" class="Facebook social"/></a>
+		<a href="http://twitter.com/shortxstack" target="_blank"><img src="img/twitter.png" alt="Facebook" title="Twitter" class="Twitter social"/></a>
+		<a href="http://linkedin.com/in/whitneypowell" target="_blank"><img src="img/linkedin.png" alt="Facebook" title="LinkedIn" class="LinkedIn social"/></a>
+		<a href="http://google.com/profiles/whitney.ellis.powell" target="_blank"><img src="img/google_plus.png" alt="Google+" title="Google+" class="Google social"/></a>
+		<a href="https://GitHub.com/shortstack" target="_blank"><img src="img/github_alt.png" alt="Facebook" title="GitHub" class="GitHub social"/></a>
+		<a target="_blank" href="mailto:whitney.ellis.champion@gmail.com"><img src="img/email.png" alt="Facebook" title="E-mail" class="E-mail social"/></a></center>
+	</div>
+
+
+	<div id="right">
+
+
+	   <div id="intro" class="section">
+		<h2>intro</h2>
+		<p>Hi! I'm Whitney and this is my online resume & portfolio. :)</p>
+		<p>I'm a 27 year old from North Carolina. I attended Appalachian State University and graduated with a BSBA with a major in computer information systems. I live in Charleston, South Carolina, working as a systems engineer by day, and a code monkey by night.</p>
+		<p>Over the years, I've surrounded myself with as much technology as possible, and this website is a result of that influence. My geeky interests lie mostly in Linux and the open source community, information security, web development, and android development.</p>
+
+	   </div>
+
+
+
+
+
+
+	   <div id="resume" class="section">
+		<h2>Resume</h2>
+
+		<p><img src="img/pdf.png" border="0" alt="PDF"/> <a target="_blank" href="Resume.pdf">Download Adobe PDF version</a><br/>
+		<img src="img/word.png" border="0" alt="Word"/> <a target="_blank" href="Resume.doc">Download Word (.doc) version</a></p>
+
+		<h3>Certifications</h3>
+
+		<ul type="disc"> 
+			<li>	Red Hat Certified Engineer (RHCE) - <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=111-074-720" target="_blank">April 2011</a></li>
+			<li>	Red Hat Certified System Administrator (RHCSA) - <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=111-074-720" target="_blank">April 2011</a></li>
+			<li>	Certified Information Systems Security Professional (CISSP) - April 2010</li>
+			<li>	Certified Ethical Hacker (CEH) - September 2010</li>
+			<li>	CompTIA Linux+ - May 2010</li>
+			<li>	CompTIA Security+ - May 2009</li>
+			<li>	 ITILV3 Foundations Certified - November 2008</li>
+		</ul>
+
+		<h3>Training</h3>
+		<ul type="disc"> 
+			<li>	RHS333 - Red Hat Enterprise Security and Network Services - <a href="RHS333.pdf" target="_blank">June 2012 </a></li>
+			<li>	RH300 - RHCE Rapid Track Course - <a href="RH300.pdf" target="_blank">April 2011</a></li>
+		</ul>
+
+		<h3>Skills</h3>
+
+		<ul>
+			<li class="topic">	Operating Systems</li>
+				<ul type="circle"> 
+					<li>	Linux/Unix - Red Hat Enterprise Linux (RHEL), Ubuntu, Slackware, Solaris, STOP</li>
+					<li>	Windows</li>
+					<li>	Mac OS</li>
+					<li>	Virtualization - VirtualBox, VMware</li>
+				</ul>
+			<li class="topic">	Office and Design Software</li>
+				<ul type="circle"> 
+					<li>	OpenOffice.org, Microsoft Office Suite</li>
+					<li>	Adobe Photoshop</li>
+					<li>    Adobe Illustrator</li>
+				</ul>
+			<li class="topic">	Server Administration Tools</li>
+				<ul type="circle">
+					<li>	Puppet administration/implementation</li>
+					<li> 	Spacewalk administration/implementation</li>
+					<li> 	Splunk administration/implementation</li>
+					<li> 	Foglight administration/implementation</li>
+				</ul>
+			<li class="topic">	Programming</li>
+				<ul type="circle"> 	
+					<li>	HTML</li>
+					<li>	CSS</li>
+					<li>	PHP</li>
+					<li>	JavaScript</li>
+					<li>	Bash</li>
+					<li>	Python</li>
+					<li>	Java</li>
+				</ul>
+			<li class="topic">	Database</li>
+				<ul type="circle">
+					<li>	MySQL</li>
+				</ul>
+			<li class="topic">	Networking & Security</li>
+				<ul type="circle"> 	
+					<li>	NIST 800-53, RDAC</li>
+					<li>	Tools:	Wireshark, NetWitness, NMAP, Snort, Metasploit, NeXpose, Retina, Tenable Nessus/SecurityCenter, DISA Gold Disk, DISA SRR, CimTrak</li>
+				</ul>
+		</ul>
+
+		<h3>Professional Experience</h3>
+	
+		<font class="subheading"><span class="date">08/11 - Present</span><span>SPARC, LLC</span><span>Charleston, SC</span></font>
+		<ul type="disc">
+			<li>	Linux systems engineer</li>
+			<li>	Android developer</li>
+		</ul>
+
+		<font class="subheading"><span class="date">05/10 - 08/11</span><span>SPAWAR Systems Center Atlantic</span><span>Charleston, SC</span></font>
+		<ul type="disc">
+			<li>	Security Engineer</li>
+			<li>	Performed in depth network forensic analysis.</li>
+			<li>	Coded Python scripts to assist in aforementioned forensic analysis.</li>
+			<li>	Specialized in Linux and Unix CT&E (Certification Testing & Evaluation) processes and engineering using NIST 800-53 controls and RDAC (Risk Decision Authority Criteria) for CDS (Cross Domain Solutions) within the DoD (Department of Defense).</li>
+			<li>	Led security engineering effort for a DoD CDS in 2010.</li>
+			<li>	Co-led CT&E regression testing effort for a DoD CDS in 2010.</li>
+		</ul>
+
+		<font class="subheading"><span class="date">06/09 - 05/10</span><span>Honeywell Technology Solutions, Inc.</span><span>Charleston, SC</span></font>
+		<ul type="disc">
+			<li>	Information Security Analyst</li>
+			<li>	Specialized in Linux and Unix CT&E processes using NIST 800-53 controls and RDAC for CDS within the Department of Defense.</span></li>
+			<li>	Led PT&E review effort for a DoD CDS in 2009.</li>
+			<li>	Used tools such as DISA Gold Disk, DISA SRR, Paros, and manual testing tools to test client systems for C&A (certification and accreditation).</li>
+		</ul>
+
+		<font class="subheading"><span class="date">08/04 - 08/08</span><span>ASU Technical Support Services</span><span>Boone, NC</span></font>
+		<ul type="disc">
+			<li>	Computer Repair Technician</li>
+			<li>	Computer hardware/software repair and one-on-one technical customer support for students, faculty, and staff at Appalachian State University.</li>
+		</ul>
+
+		<!--<font class="subheading"><span class="date">05/07 - 07/07</span><span>Electronic Student Services</span><span>Boone, NC</span></font>
+		<ul type="disc">
+			<li> 	Linux Server Administration</li>
+			<li>	Created databases and set up content management systems for university related groups and departments.</li>
+		</ul>
+
+		<font class="subheading"><span class="date">06/02 - 04/03</span><span>SuperCom, Inc.</span><span>Winston-Salem, NC</font>
+		<ul type="disc">
+			<li>	Company Webmaster</li>
+			<li>	Designed Computer-Based Training Manuals for clients using HTML, JavaScript, PHP, Macromedia Flash, and Adobe Photoshop.</li>
+		</ul>-->
+
+		<h3>Education</h3>
+
+		<div class="subheading">
+		2004-2009 | Appalachian State University | Boone, NC<br/>
+		Bachelor of Science, Business Administration<br/>
+		Computer Information Systems</div>
+		<ul type="disc">
+			<li class="topic">Accomplishments</li>
+			<ul type="circle">
+				<li>Dean's List - 2004, 2005, 2008, 2009</li>
+			</ul>
+
+			<li class="topic">	Association of Information Technology Professionals (AITP)</li>
+			<ul type="circle">
+				<li>	Student Chapter President - 2009</li>
+				<li>	Member - 2006-2009</li>
+			</ul>
+
+			<li class="topic">	Project Management Club - 2008-2009</li>
+
+			<li class="topic">	Study abroad in Scandinavia - May 2007-June 2007</li>
+			<ul type="circle">
+				<li>	Studied information technology in Scandinavian business practices within Sweden, Norway, Denmark, and Finland.</li>
+			</ul>
+
+			<li class="topic">	Security lab assistant - 2008-2009</li>
+			<ul type="circle">
+				<li>	Assisted students with labs for the managing & advanced security classes within the ASU computer information systems department.</li>
+			</ul>
+
+			<li class="topic"> 	A.S.U. Gaming Club - Vice President - 2007-2008</li>
+			<ul type="circle">
+				<li>	Coordinated 200-person LAN parties which involved recruiting sponsors and teams, leading meetings, helping set up networks and servers, running tournaments.</li>
+			</ul>
+
+			<li class="topic">    Appalachian Linux Users Group - Publicity Chair - 2007-2008</li>
+		</ul>
+
+	  </div>
+
+
+
+
+
+
+	  <div id="websites" class="section">
+
+		<h2>Websites</h2>
+
+			<div id="slider">
+				<li class="work-11">
+
+					<div id="description"><h4>Lyrics N Motion</h4>
+						Designed all but the logo. First mockup. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-12">
+
+					<div id="description"><h4>Lyrics N Motion</h4>
+						Designed all but the logo. Second mockup. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-10">
+
+					<div id="description"><h4>SPARCET</h4>
+						Designed all but the ribbon. Second concept mockup. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-9">
+
+					<div id="description"><h4>SPARCET</h4>
+						Designed all but the ribbon. First concept mockup. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-14">
+
+					<div id="description"><h4>Sean Divine</h4>
+						Designed all but the logo. First mockup of 2013. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-15">
+
+					<div id="description"><h4>Sean Divine</h4>
+						Designed all but the logo. Second mockup of 2013. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-13">
+
+					<div id="description"><h4>Jurd Beats</h4>
+						Designed full SoundClick layout. First concept mockup. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-1">
+				
+					<div id="description"><h4>HighSchoolNation.org</h4>
+						Designed everything except for the logo. Based on Wordpress using the Starkers blank theme. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.					
+					</div>
+				</li>
+				<li class="work-2">
+
+					<div id="description"><h4>Champ N' ShortStack Hitched</h4>
+						The website I made for our wedding in January 2012. Designed 100% of it. Based on Wordpress using the Shaken Grid Free theme. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.				
+					</div>
+				</li>
+				<li class="work-3">
+
+					<div id="description"><h4>PhilipBould.com</h4>
+						I made this website for a friend who wanted to showcase his paintings. Designed 100% of it. Background photo was taken by him and altered by me in Photoshop. Based on Wordpress. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.
+					</div>
+				</li>
+				<li class="work-7">
+				
+					<div id="description"><h4>AmandaPly.com</h4>
+						Designed everything except for the logo. Based on Wordpress using the Starkers blank theme. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.					
+					</div>
+				</li>
+				<li class="work-4">
+
+					<div id="description"><h4>October Illustrations</h4>
+						I made this website for another friend who wanted to showcase his paintings. Background photo was taken by him and altered by me in Photoshop. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.					
+					</div>
+				</li>
+				<li class="work-5">
+
+					<div id="description"><h4>Deepa Patel Real Estate</h4>
+						Designed 100% of it. Based on Wordpress using the TwentyTen theme scaled down. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Illustrator.							
+					</div>
+				</li>
+				<li class="work-6">
+
+					<div id="description"><h4>Sean Divine</h4>
+						Designed all but the speaker images. This was a landing page for his website that is no longer up. Images created in Adobe Photoshop and Adobe Illustrator.					
+					</div>
+				</li>
+				<li class="work-8">
+
+					<div id="description"><h4>Sean Divine</h4>
+						Designed all but the logo. Based on Wordpress using the Starkers blank theme. Written in gedit using HTML, CSS, and PHP. Images created in Adobe Photoshop.
+					</div>
+				</li>
+			</div>
+
+	  </div>
+
+
+
+
+
+
+
+	  <div id="logos" class="section">
+
+		<h2>Logos</h2>
+
+		<img src="img/logos.png" alt="logos"/>
+
+	  </div>
+
+
+
+
+
+
+	  <div id="android" class="section">
+
+		<h2>Android</h2>
+
+		<img src="img/hackertracker.png" alt="Hacker Tracker"/>
+		<h4>Hacker Tracker</h4>
+		<p>The idea is simple. I wanted to make an app for <a href="http://defcon.org" target="_blank">DEF CON</a>. Every year they hand out a booklet with the schedule and events and practically everything you need to know about the conference, so I thought a digital, abbreviated version could be helpful. Abbreviated meaning it would have just the "need to know" information:</p>
+		<ul>
+		<li>Speaker schedules</li>
+		<li>Entertainment schedule</li>
+		<li>Contest/event information</li>
+		<li>Maps of the hotel and the conference</li>
+		<li>A live twitter feed of what's going on via #defcon and @_defcon_</li>
+		<li>FAQ</li>
+		<li>Vendors</li>
+		</ul>
+		<p>The catch is, most people don't want to connect to the WiFi at the conference, or even use their 3G/4G, so the data would have to be preloaded in a database. With that in mind, I created an sqlite database with the con information.</p>
+		<p>The Twitter section is the only part that requires an internet connection, obviously. BUT, it doesn't pull data unless the user is already connected to a network. It also doesn't require the user's twitter credentials since it's just a live feed, and not tied to their account.</p>
+		<p>It's a work in progress <s>that I hope to have finished for DEF CON 21</s> that I hope to continue for all future DEF CON's.</p>
+		<p>App was written in Java. The database is sqlite. The logo is the official Defcon logo, but all images were created in Adobe Photoshop and Adobe Illustrator.</p>
+		<p>The APK can be downloaded <a href="https://play.google.com/store/apps/details?id=com.shortstack.hackertracker" target="_blank">here</a>.</p>
+		<p>The code can be forked from GitHub <a href="https://GitHub.com/shortstack/HackerTracker" target="_blank">here</a>.</p>
+
+		<br/><br/>
+		<img src="img/angrybackup.png" alt="Angry Birds Backup"/>
+		<h4>Angry Birds Backup</h4>
+		<p>I needed a way to transfer my Angry Birds scores between Android devices efficiently, so I wrote an app to do just that. :) Four of them, actually. One for each version of Angry Birds. Except Star Wars because I went and had a baby and didn't have time.</p>
+		<p>A user can choose to either save/restore their scores locally between the game and their SD card, or they can create an account and use the online option, which saves/retrieves their score files to/from <a href="http://angrybackup.com" target="_blank">AngryBackup.com</a>.</p>
+		<p>I also wrote the web interface that complements the app.</p>
+		<p>App was written in Java. Website was written in HTML, CSS, and PHP. The database is MySQL. Images are property of Rovio but were redrawn by me in Adobe Illustrator.</p>
+		<p>The apps can be downloaded from Google Play <a href="https://play.google.com/store/apps/developer?id=Whitney+Champion" target="_blank">here</a>.</p>
+
+<!--		<br/><br/>
+		<img src="img/amazingalex.png" alt="Amazing Alex Backup"/>
+		<h4>Amazing Alex Backup</h4>
+		<p>After acquiring a solid user base with my Angry Birds Backups, I received an email requesting that I create a backup application for Rovio's Amazing Alex. So here it is.</p>
+		<p>A user can choose to either save/restore their scores locally between the game and their SD card, or they can create an account and use the online option, which saves/retrieves their score files to/from the same server as Angry Backup. Users of both applications can use the same account.</p>
+		<p>App was written in Java. Scripts querying the database use PHP/SQL. The database is MySQL. Images are property of Rovio but were redrawn by me in Adobe Illustrator and Photoshop.</p>
+		<p>The app can be downloaded from Google Play <a href="https://play.google.com/store/apps/details?id=com.shortstack.amazingalexbackup" target="_blank">here</a>.</p>-->
+
+		<br/><br/>
+		<img src="img/feedme.png" alt="Feed Me So'more"/>
+		<h4>Feed Me So'more</h4>
+		<p>My company held a week-long internal Hackathon at work, so I teamed up with 2 other guys to create this app. It's a baby feeding tracking application that allows you to keep track of your child's feedings, diaper changes, and naps, and share them.</p>
+		<p>The app can be downloaded from Google Play <a href="https://play.google.com/store/apps/details?id=com.feedme" target="_blank">here</a>.</p>
+		<p>The code can be forked from GitHub <a href="https://GitHub.com/squickone/Feed-Me-Seymore" target="_blank">here</a>.</p>
+
+		<br/><br/>
+		<img src="img/todozzz.png" alt="To-Do'Zzz"/>
+		<h4>To-Do'Zzz</h4>
+		<p>My company holds an annual Hackathon open to anyone who wants to compete in teams of 1-3 people. You are given a category and have 12 hours to create an application that somehow fits into that category.</p>
+		<p>Disclaimer: I was due to give birth 2 days after I entered this contest. So give me a break.</p>
+		<p>The category I was given was sleep/stress, so I created a to-do list application that allows you to time you and your baby's naps, and simultaneously keep track of the tasks you need to get done when you wake up. Since everyone suggests to sleep when your baby sleeps, you might not get to finish everything you wanted to finish before crashing out for a couple hours, and you'll probably forget by the time you wake up. This app allows you and your baby to get some rest without trying to remember all of the things you should be doing besides sleeping that keep you from getting some much-needed shut-eye.</p>
+		<p>The app can be downloaded from Google Play <a href="https://play.google.com/store/apps/details?id=com.shortstack" target="_blank">here</a>.</p>
+	  </div>
+
+
+
+
+	  <div id="footer">
+	 	&copy; <?php echo date('Y'); ?> Whitney Ellis Champion<br/>
+	  </div>
+
+
+
+
+	</div> <!--end #right-->
+
+
+
+</div>
+
+</body>
+</html>
