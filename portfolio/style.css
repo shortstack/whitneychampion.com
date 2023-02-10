@@ -1,6 +1,6 @@
 body {
     font-family: Consolas,monaco,monospace;
-    background: url(img/rbow.png)
+    background: url(img/rbow.png), #ffffff;
 }
 
 header, footer {
