@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: install awscli
-          command: sudo pip3 install awscli
+          command: sudo pip install awscli
       - run:
           name: remove .git and .circleci
           branch: master
