@@ -54,6 +54,8 @@ a:active, a:hover {
 
 .social {
     border: none;
+    margin-top:20px;
+    display:inline-block;
 }
 
 .social .fa {
