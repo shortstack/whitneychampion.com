@@ -1,12 +1,43 @@
+body {
+  background-color: #ccfffe;
+  color: #fff;
+  font-family: "Ubuntu Mono", monospace;
+}
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
 :root {
   --jumbotron-padding-y: 3rem;
 }
 
 .jumbotron {
+  background-color: #23c5eb;
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  margin-top:435px;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -60,6 +91,10 @@ transition: all ease-in-out 0.5s;
 
 }
 
+main {
+  background-color: #23c5eb;
+}
+
 .art {
     min-height: 200px;
     min-width: 200px;
@@ -83,8 +118,22 @@ transition: all ease-in-out 0.5s;
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-color: #23c5eb;
+  color: #fff;
 }
 
 footer p {
   margin-bottom: .25rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .jumbotron {
+        margin-top: 275px;
+    }
+
+    .jumbotron-heading {
+      font-size: 2.0rem;
+    }
+
 }
